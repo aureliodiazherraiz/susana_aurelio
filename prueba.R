@@ -6,4 +6,8 @@ dt<-read.table("~/digital.agri/CSV/ datos_brutos_medias_250121.csv")
 head(dt)# introduce el código de las parcelas del IFN
 
 str(dt)
+library(glmulti)
 dt %>% summarise ()
+dt %>% mutate (suma = X1*1)
+
+Modelo1 <- lm()
