@@ -7,3 +7,4 @@ head(dt)# introduce el código de las parcelas del IFN
 
 str(dt)
 dt %>% summarise ()
+# estoy en mi rama
